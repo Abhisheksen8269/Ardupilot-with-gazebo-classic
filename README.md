@@ -65,3 +65,10 @@ Once the SITL is running and says "GPS Lock," launch MAVROS to allow ROS 2 to co
 ros2 run mavros mavros_node --ros-args -p fcu_url:=udp://127.0.0.1:14550@
 
  ```
+
+## Terminal 4 : Run the navigation code
+```
+ros2 run pack node
+
+ ```
+
